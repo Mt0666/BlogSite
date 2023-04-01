@@ -19,7 +19,6 @@ html{
 p{
     font-size: 10px;
     font-weight: 500;
-    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
 }
@@ -119,7 +118,12 @@ p{
   }
   
   .navbar-item .navbar-item-link:hover {
-    background-color: #111;
+    background-color: rgb(169, 165, 206);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color:whitesmoke;
+
   }
   .orta-alan{
     height: 300px;    
@@ -170,28 +174,14 @@ p{
       border:gray;
       border-style: solid;
       border-color: gray;
+      border-radius: 5px;
       height: 330px;
       margin: 3%;
       background-size: 100%;
       float: left;
-  }
-  .yazı:hover{
-      display: flex; 
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      width: 80%;
-      height: 330px;
-      margin: 3%;
-      background-size: 100%;
-      float: left;
-      transition-property: width;
-      transition-duration: 0.5s;
-      transition-timing-function: linear;
-  }
+      cursor: pointer;
 
-  
+  }
 
   .img{
     width: 100%;
@@ -280,6 +270,7 @@ p{
   
   .footer .footer-center {
     width: 30%;
+    padding-left: 140px;
   }
   
   .footer .footer-center i {
@@ -341,6 +332,7 @@ p{
     color: #ffffff;
     margin: 20px 0 12px;
     padding: 0;
+    text-align: center;
     
   }
   
@@ -360,6 +352,7 @@ p{
     font-size: 14px;
     font-weight: normal;
     margin: 0;
+    text-align: center;
   }
   
   @media (max-width: 767px) {
@@ -379,17 +372,223 @@ p{
     }
 
   }
-  
+
   .icons{
     margin-left: 130px;
   }
-
-  .footer .footer-center{
-    margin-left: ;
-  }
-
   .orta-alan p{
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
   }
+  
+.notlar{
+  width: 500px;
+  height: 100%;
+}
+
+object{
+  background-color: white;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-box {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.project-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.project-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color .3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0062cc;
+}
+
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-text strong {
+  font-weight: bold;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.contact-list li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.hakkımda-li{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.hakkımda-p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.contact-info {
+  width: 400px;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.contact-form {
+  width: 400px;
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0080ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0066cc;
+}
+
+
+

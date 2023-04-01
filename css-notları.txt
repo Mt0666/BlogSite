@@ -1,0 +1,1095 @@
+
+--------------------FONTLAR İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+@font-face		Font face özelliği, bilgisayarımızda hazır olarak gelen yazı tiplerinin ( Arial, Verdana vb..) dışında
+			istediğimiz yazı tiplerini kullanmamıza olanak sağlar.
+
+
+
+font			Diğer font özelliklerini tek Css özelliği (font) ile tanımlamamızı sağlar.
+
+
+
+font-family		Yazıların tipini yani hangi font ailesinden olmasını istiyorsak onu belirtmek için kullanılır.
+ 			Değer olarak sadece bir yazı tipi verebildiğimiz gibi birden fazla değerde verebiliriz. Çünkü verdiğimiz 
+			ilk değeri tarayıcı desteklemiyorsa bir sonraki verdiğimiz değeri uygulayacaktır.
+
+
+
+font-size		Bu özellik ile yazı boyutlarını ayarlayabiliyoruz. Yazı boyutuna px veya em türünden değerler veriyoruz.
+ 			Tarayıcılar varsayılan olarak yazı boyutunu 16px uygularlar.
+
+
+
+font-style		Yazıları italik yapmak için kullanılır. font-style özelliğine şu değerleri verebiliriz:
+
+				italic
+
+				normal
+
+				oblique : İtalic değerine çok benzer ama daha az tarayıcı tarafından desteklenir.
+
+
+
+
+font-variant		Yazılarda küçük harfleri büyük harflere çevirmek için kullanılır. Burada şuna dikkat
+ 			etmemiz gerekiyor. Eğer yazıda hepsi küçük harf ise dönüştürdüğümüzde hepsi aynı boyutta büyük 
+			harfe dönüşecektir. Eğer yazıda hem büyük hem küçük harfler varsa, dönüştürdüğümüzde yine hepsi büyük
+ 			harf olacaktır ama önceden zaten büyük harf olanlar yeni dönüştürülenlerden biraz daha büyük olacaktır.
+
+				font-variant özelliğine şu değerleri verebiliriz:
+
+				small-caps : Küçük harfleri büyük harflere dönüştürür.
+
+				normal
+
+
+
+font-weight		Bu özellik ile yazıların kalınlık incelik durumlarını ayarlayabiliriz. font-weight özelliğine şu değerleri verebiliyoruz:
+
+				bold
+
+				bolder
+
+				lighter
+
+				normal
+
+				100’den 900’e kadar 100’ün katları olacak şekildede verilebilir. 900 en kalını iken, 100’e doğru incelir ve 100’de
+				en ince halini alır.  
+
+
+
+--------------------YAZILARA STİL VERMEK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+
+color			Bu özellik ile yazılara istediğimiz renkleri verebiliriz. Dilerseniz direk renk adını verebileceğiniz gibi renklerin
+ 			rgb ve hex kodlarınıda kullanabilirsiniz. Renk kodlarıyla ilgili daha fazla bilgi edinmek isterseniz Tüm Renk İsimleri ve Renk Kodları
+ 			(Html, Css, Hex, Rgb) yazımı inceleyebilirsiniz.
+
+
+
+
+letter-spacing		Yazıların karakterleri arasındaki boşluğu arttırmak veya azaltmak için kullanılır. Negatif değerler verdiğimizde
+ 			aradaki boşluklar azalır.
+
+
+
+
+line-height		Satır yüksekliğini belirlemek için kullanılır.
+
+
+
+
+word-break		Satır sonlarındaki kelimeleri, satırı tam kaplayacak şekilde bölmek için kullanılır.
+			word-break özelliğine şu değerleri verebiliriz:
+
+				keep-all : Varsayılan olarak gelen değer.Satır sonundaki kelimeler bölünmez.
+
+
+break-word : 		Satır sonundaki sığmayan kelimeler bölünür.
+
+
+
+
+word-spacing		Yazıların kelimeleri arasındaki boşluğu arttırmak veya azaltmak için kullanılır.
+ 			Negatif değerler verdiğimizde aradaki boşluklar azalır.
+
+
+
+
+white-space		Yazılardaki boşlukların nasıl değerlendirileceğini belirlemek için kullanılır.
+			white-space özelliğine şu değerleri verebiliriz:
+
+				normal
+
+				nowrap
+
+				pre
+
+				pre-line
+
+				pre-wrap
+
+
+
+
+word-wrap		Bulunduğu alana sığmayacak kadar uzun olan kelimeleri satır sonundan bölmek için kullanılır.
+			word-wrap özelliğine şu değerleri verebiliriz:
+
+				normal : Varsayılan olarak gelen değer.
+
+				break-word : Sığmayan kelimeyi böler.
+
+
+
+
+writing-mode		Yatay şekilde olan yazıları dikey hale getirmek için kullanılır. writing-mode özelliğine şu değerleri verebiliriz:
+
+				horizontal-tb : Yazı yatay halde olur.
+
+				vertical-lr : Yazı dikey halde olur.
+
+				vertical-rl : Yazı dikey halde olur.
+
+
+
+
+
+text-transform		Yazılarda küçük harfleri büyük harfe, büyük harfleri küçük harfe dönüştürmek için kullanılır. Aynı zamanda sadece
+ 			ilk harfleri büyük diğerleri küçük olacak şekilde kelime ve cümlelerde oluşturabiliriz. text-transform özelliğine
+			şu değerleri verebiliriz:
+
+				uppercase : Küçük harfleri büyük harfe dönüştürür.
+
+				lowercase : Büyük harfleri küçük harfe dönüştürür.
+
+				capitalize : İlk harf büyük diğer harfler küçük olacak şekilde dönüştürür.
+
+
+
+
+
+text-align		Yazıları yatayda hizalamak için kullanılır. Yani yazının sağda, solda, ortada veya sağa ve sola dayalı şekilde 
+			olmasını sağlayabiliriz. text-align özelliğine şu değerleri verebiliriz:
+
+				right
+
+				left
+
+				center
+
+				justify
+
+				end
+
+				start
+
+
+
+
+
+text-decoration		Yazıların altını, üstünü, üzerini çizmek veya çizili olanları kaldırmak için kullanılır. text-decoration
+			özelliğine şu değerleri verebiliriz:
+
+				underline : Yazının altını çizer.
+
+				line-through : Yazının üzerini çizer.
+
+				overline : Yazının üstünü çizer.
+
+				none : Varolan etkileri kaldırır.
+
+
+
+
+
+text-decoration-color	Yazıların altını, üstünü ve üzerini hangi renk ile çizeceğimizi belirtmek için kullanılır.
+
+
+
+text-decoration-style	Yazıların altını, üstünü ve üzerini hangi stil ile çizeceğimizi belirtmek için kullanılır.
+			Örneğin düz çizgi, kesikli çizgi vb.
+
+
+
+text-indent		Paragrafın ilk cümlesinin vereceğimiz değer ölçüsünde içeriden yani girintili olarak başlaması 
+			için kullanılır. Değeri px olarak verebiliriz.
+
+
+
+
+text-shadow		Yazılara gölge efekti vermek için kullanılır. Vereceğimiz değerler ile gölgenin x ve y eksenindeki konumunu,
+			bulanıklığını ve rengini belirleriz.
+			İlk verilen değer x ekseni, ikinci verilen değer y ekseni, üçüncü verilen değer bulanıklık, dördüncü verilen 
+			değer de rengi için uygulanır.
+
+
+
+
+
+text-overflow		Bu özellik ile yazılarımızın sığmadığı durumlarda yazının devamının olduğunu belirtmek için “…” (üç nokta)
+			koyabiliriz. text-overflow özelliğine şu değerleri verebiliriz:
+
+				clip : Varsayılan olarak gelen değer.
+
+				ellipsis : Yazının taştığını belirten “…” (üç nokta) koyar.
+
+
+
+--------------------İÇ VE DIŞ BOŞLUK VERMEK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+padding			Html öğelerine iç boşluk vermek için kullanılır. Padding değeri verirken bunu 3 farklı yol ile yapabiliriz. Bunlar:
+
+				length ( padding: 10px; ) : px, pt, cm vb. bir değer verebiliriz.
+
+				% ( padding: 20%; ) : İçerisinde bulunduğu etiketin genişliğinin yüzdesi olarak değer verebiliriz.
+
+				inherit ( padding: inherit; ) : inherit değeri verirsek, ebeveyn etiketinin padding değeri ne ise onu miras alır 
+				ve aynı değer uygulanır.
+
+
+
+
+
+padding-bottom		Html öğelerine aşağı iç boşluk vermek için kullanılır.
+
+
+padding-left		Html öğelerine sol iç boşluk vermek için kullanılır.
+
+
+padding-right		Html öğelerine sağ iç boşluk vermek için kullanılır.
+
+
+padding-top		Html öğelerine yukarı iç boşluk vermek için kullanılır.
+
+
+
+
+
+margin			Html öğelerine dış boşluk vermek için kullanılır. Margin değeri verirken bunu 4 farklı yol ile yapabiliriz. Bunlar:
+
+				length ( margin: 10px; ) : px, pt, cm vb. bir değer verebiliriz.
+
+				% ( margin: 20%; ) : İçerisinde bulunduğu etiketin genişliğinin yüzdesi olarak değer verebiliriz.
+
+				inherit ( margin: inherit; ) : inherit değeri verirsek, ebeveyn etiketinin margin değeri ne ise onu miras alır ve aynı değer uygulanır.
+
+				auto ( margin: auto; ) : auto değeri verirsek, etiketin kenar boşluklarını tarayıcı otomatik olarak belirler. Bu özelliğin düzgün çalışması için etiketin width özelliğine bir genişlik değeri vermelisiniz.
+
+
+
+
+
+margin-bottom		Html öğelerine aşağı dış boşluk vermek için kullanılır.
+
+
+margin-left		Html öğelerine sol dış boşluk vermek için kullanılır.
+
+
+margin-right		Html öğelerine sağ dış boşluk vermek için kullanılır.
+
+
+margin-top		Html öğelerine yukarı dış boşluk vermek için kullanılır.
+
+
+
+
+--------------------KENARLIK VERMEK VEYA KÖŞELERİ YUVARLAMAK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+
+border			Bir Html öğesinin 4 tarafına birden kenarlık vermek için kullanılır.
+
+
+border-left		Bir Html öğesine sol kenarlık vermek için kullanılır.
+
+
+border-right		Bir Html öğesine sağ kenarlık vermek için kullanılır.
+
+
+border-bottom		Bir Html öğesine alt kenarlık vermek için kullanılır.
+
+
+border-top		Bir Html öğesine üst kenarlık vermek için kullanılır.
+
+
+border-color		Bir Html öğesinin 4 tarafına birden kenarlık rengi vermek için kullanılır.
+
+
+border-left-color	Bir Html öğesine sol kenarlık rengi vermek için kullanılır.
+
+
+border-top-color	Bir Html öğesine üst kenarlık rengi vermek için kullanılır.
+
+
+border-right-color	Bir Html öğesine sağ kenarlık rengi vermek için kullanılır.
+
+
+border-bottom-color	Bir Html öğesine alt kenarlık rengi vermek için kullanılır.
+
+
+
+
+border-style		Bir Html öğesinin 4 tarafına birden kenarlık stili (tek çizgi, çift çizgi, noktalı vb..) vermek için kullanılır.
+			border-style özelliğine şu değerleri verebiliyoruz:
+
+			⦁	dotted
+
+			⦁	dashed
+
+			⦁	solid
+
+			⦁	double
+
+			⦁	groove
+
+			⦁	ridge
+
+			⦁	inset
+
+			⦁	outset
+
+			⦁	none
+
+			⦁	hidden
+
+
+
+border-right-style	Bir Html öğesine sağ kenarlık stili (tek çizgi, çift çizgi, noktalı vb..) vermek için kullanılır.
+
+
+border-top-style	Bir Html öğesine üst kenarlık stili (tek çizgi, çift çizgi, noktalı vb..) vermek için kullanılır.
+
+
+border-left-style	Bir Html öğesine sol kenarlık stili (tek çizgi, çift çizgi, noktalı vb..) vermek için kullanılır.
+
+
+border-bottom-style	Bir Html öğesine alt kenarlık stili (tek çizgi, çift çizgi, noktalı vb..) vermek için kullanılır.
+
+
+border-width		Bir Html öğesinin 4 tarafına birden kenarlık genişliği vermek için kullanılır.
+
+
+border-top-width	Bir Html öğesine üst kenarlık genişliği vermek için kullanılır.
+
+
+border-right-width	Bir Html öğesine sağ kenarlık genişliği vermek için kullanılır.
+
+
+border-left-width	Bir Html öğesine sol kenarlık genişliği vermek için kullanılır.
+
+
+border-bottom-width	Bir Html öğesine alt kenarlık genişliği vermek için kullanılır.
+
+
+
+border-radius		Bir Html öğesinin 4 köşesini birden yuvarlamak için kullanılır. Değer verirken px veya % (yüzde) olarak verebiliyoruz.
+
+
+
+border-top-left-radius		Bir Html öğesinin üst sol köşesini yuvarlamak için kullanılır.
+
+
+border-top-right-radius		Bir Html öğesinin üst sağ köşesini yuvarlamak için kullanılır.
+
+
+border-bottom-left-radius	Bir Html öğesinin alt sol köşesini yuvarlamak için kullanılır.
+
+
+border-bottom-right-radius	Bir Html öğesinin alt sağ köşesini yuvarlamak için kullanılır.
+
+
+outline				Bir Html öğesinin 4 tarafına birden (üst, sağ, alt, sol) dış kenarlık vermek için kullanılır.
+
+
+
+outline-color			Bir Html öğesinin 4 tarafına birden (üst, sağ, alt, sol) dış kenarlık rengi vermek için kullanılır.
+
+
+
+outline-style			Bir Html öğesinin 4 tarafına birden (üst, sağ, alt, sol) dış kenarlık stili (tek çizgi, çift çizgi, noktalı vb..)
+				vermek için kullanılır.
+				outline-style özelliğine şu değerleri verebiliyoruz:
+
+				⦁	dotted
+
+				⦁	dashed
+
+				⦁	solid
+
+				⦁	double
+
+				⦁	groove
+
+				⦁	ridge
+
+				⦁	inset
+
+				⦁	outset
+
+
+
+outline-width			Bir Html öğesinin 4 tarafına birden (üst, sağ, alt, sol) dış kenarlık genişliği vermek için kullanılır.
+				Kenarlık genişliğini px, pt, cm, em, vb. ile belirleyebiliriz.
+
+
+--------------------ANİMASYONLAR İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+@keyframes			Animasyonlar ile ilgili Css kodlarımızı yazmak için kullanılır. @keyframes özelliği içerisindeki
+				from ve to blokları içerisine kodlarımızı yazabiliriz.
+				Animasyon, belirtilen sürede from içerisindeki Css kodlarından başlar ve kademeli olarak to içerisindeki
+				Css kodlarına dönüşünceye kadar devam eder.
+
+
+
+animation			Tüm animasyon özelliklerini toplu olarak tek özellikle belirtmek için kullanılır. Bir animasyon örneğini hem uzun hem de
+				kısa şekliyle yazacak olursak:
+
+				** Ayrı ayrı yazarak animasyon örneği **
+
+				⦁	animation-name: example;
+
+				⦁	animation-duration: 3s;
+
+				⦁	animation-timing-function: linear;
+
+				⦁	animation-delay: 2s;
+
+				⦁	animation-iteration-count: infinite;
+
+				⦁	animation-direction: alternate;
+
+
+
+				** Tek satırda yazarak animasyon örneği **
+
+				animation: example3s linear 2s infinite alternate;
+
+				animation-delay	Animasyonu belirli bir süre sonra başlatmak için kullanılır.
+
+
+
+animation-direction		Animasyonun yönünü belirtmek için kullanılır. 4 değer alabilir. Bunlar:
+				normal : Varsayılan değerdir.
+
+				reverse : Animasyonun ters yönde çalışmasını sağlar
+.
+				alternate : Animasyonun önce normal sonra tam tersi yönde çalışmasını sağlar ve bu şekilde devam eder.
+
+				alternate-reverse : Animasyonun önce ters yönde sonra normal yönde çalışmasını sağlar ve bu şekilde devam eder.
+
+
+
+animation-duration		Animasyonun ne kadar sürede tamamlanacağını belirtmek için kullanılır. Varsayılan değeri 0’dır.
+
+
+
+animation-fill-mode		Animasyonun bittikten sonraki durumunu belirtmek için kullanılır. animation-fill-mode özelliğine şu değerleri
+				verebiliyoruz:
+
+				⦁	none : Animasyon bittikten sonra başlangıç değerlerine döner. (Varsayılan değerdir.)
+
+				⦁	forwards : Animasyon bittikten sonraki son durumunda kalır ve o son durumdaki değerler uygulanır.
+
+				⦁	backwards : Animasyon bittikten sonra veya durdurulduğunda, başlangıç özellikleri uygulanır.
+
+				⦁	both : forwards ve backwards değerleri birlikte uygulanır.
+
+
+
+
+
+animation-iteration-count	Animasyonun kaç defa tekrar edeceğini belirtmek için kullanılır. Eğer animasyonun sonsuz döngüye girmesini yani
+				sürekli tekrar etmesini istiyorsak infinite değerini vermemiz gerekiyor.
+
+
+
+
+
+animation-name			Animasyonun hangi etikete uygulanmasını istiyorsak, o etikete animation-name özelliği ile yazmış olduğumuz animasyonun adı verilir.
+
+
+
+
+animation-play-state		paused değeri vererek animasyonları durdurmak için kullanılır. animation-play-state özelliğine şu değerleri verebiliyoruz:
+
+				running : Varsayılan değerdir ve animasyon normal bir şekilde çalışır.
+
+				paused : Animasyonu durdurmamızı sağlar.
+
+
+
+
+
+animation-timing-function	Animasyonun gerçekleşme biçimini belirtmek için kullanılır. Örneğin gerçekleşecek animasyon, hızlı bir şekilde başlayıp 
+				sonlara doğru yavaşlayabilir. Yavaş bir şekilde başlayıp sonlara doğru hızlanabilir veya sabit bir hızda gerçekleşebilir.
+				animation-timing-function özelliğine şu değerleri verebiliyoruz:
+
+				⦁	ease : Animasyon, yavaş başlar sonra hızlanır en son tekrar yavaşlar. (Varsayılan değerdir.)
+
+				⦁	linear : Animasyon, baştan sona aynı hızda devam eder.
+
+				⦁	ease-in : Animasyonun yavaş başlamasını sağlar.
+
+				⦁	ease-out : Animasyonun yavaş bitmesini sağlar.
+
+				⦁	ease-in-out : Animasyon, yavaş başlar ve yavaş biter.
+
+
+
+
+--------------------ARKAPLAN İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+background			Diğer arkaplan Css özelliklerini tek seferde background özelliği ile kullanabiliriz. Kullanımı şu şekildedir:
+
+				background:
+				background–color
+				background–image
+				background–position
+				background–size
+				background–repeat
+				background–origin
+				background–clip
+				background–attachment ;
+
+background-attachment		Arkaplana yerleştirdiğimiz resmin sabit kalmasını sağlamak için kullanılır.
+
+
+background-clip			Arkaplana vermiş olduğumuz rengin başlangıç alanını belirtmek için kullanılır. Bu özelliğe 
+				3 değer verebiliyoruz. Bunlar:
+
+				⦁	padding-box : Varsayılan değerdir. Rengin padding alanından başlamasını sağlar.
+
+				⦁	border-box : Rengin border alanından başlamasını sağlar.
+
+				⦁	content-box : Rengin içerik alanından başlamasını sağlar.
+
+
+background-color		Bu özellik ile bir Html öğesine veya sayfanın tamamına arkaplan rengi verebiliriz.
+
+
+background-image		Bu özellik ile bir Html öğesine veya sayfanın tamamına arkaplan resmi yerleştirebiliriz.
+
+
+background-origin		Arkaplana yerleştirdiğimiz resmin başlangıç alanını belirtmek için kullanılır. Bu özelliğe 3 değer
+ 				verebiliyoruz. Bunlar:
+
+				⦁	padding-box : Varsayılan değerdir. Resmin padding alanından başlamasını sağlar.
+
+				⦁	border-box : Resmin border alanından başlamasını sağlar.
+
+				⦁	content-box : Resmin içerik alanından başlamasını sağlar.
+
+
+background-position		Arkaplana yerleştirdiğimiz resmin konumunu belirtmek için kullanılır. Bu özelliğe 4 değer verebiliyoruz.
+				Bunlar:
+
+				⦁	top : Üstte
+
+				⦁	bottom : Altta
+
+				⦁	right : Sağda
+
+				⦁	left : Solda
+
+				⦁	center : Ortada
+
+background-repeat		Arkaplana yerleştirdiğimiz resmin yatayda ve dikeyde tekrar edip etmeme durumunu belirtmek için kullanılır.
+				Bu özelliğe 4 değer verebiliyoruz. Bunlar:
+
+				⦁	repeat-x : Resim x ekseninde tekrar eder.
+
+				⦁	repeat-y : Resim y ekseninde tekrar eder.
+
+				⦁	no-repeat : Resim tekrar etmez.
+
+				⦁	repeat : Varsayılan değerdir.Resim x ve y eksenlerinde tekrar eder.
+
+
+background-size			Arkaplana yerleştirdiğimiz resmin boyutlarını belirtmek için kullanılır. Bu özelliğe 5 değer 
+				verebiliyoruz. Bunlar:
+
+				⦁	auto : Varsayılan değerdir. Resim orjinal boyutlarında yerleştirilir.
+
+				⦁	uzunluk değerleri : İki değer verilirse, birinci değer genişlik için ikinci değer ise yükseklik
+				için uygulanır. Tek değer verilirse, hem genişlik hemde yükseklik için bu değer uygulanır.
+
+				⦁	yüzde olarak değer : İki değer verilirse, birinci değer genişlik için ikinci değer ise yükseklik
+				için uygulanır. Tek değer verilirse, hem genişlik hemde yükseklik için bu değer uygulanır.
+
+				⦁	contain : Resmin genişlik ve yükseklik değerlerinden büyük olanı, uygulandığı etiketi kapsayacak
+				şekilde yerleştirilir. Diğer küçük olanıda buna göre en boy oranı bozulmayacak şekilde değişir.
+
+				⦁	cover : Resmin genişlik ve yükseklik değerlerinden küçük olanı, uygulandığı etiketi kapsayacak 
+				şekilde yerleştirilir. Diğer küçük olanıda buna göre en boy oranı bozulmayacak şekilde değişir.
+
+
+
+
+
+--------------------ÇOKLU SÜTUN OLUŞTURMAK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+
+column-count			Yazımızı vereceğimiz değer kadar sütunlara ayırmak için kullanılır.
+
+
+column-gap			Sütunlar arasındaki mesafeyi belirtmek için kullanılır.
+
+
+column-rule			Bu özellik ile sütunlar arasında tıpkı border özelliği gibi ayıraçlar kullanabiliriz. Bunun için
+				ayıracın kalınlığını, stilini ve rengini belirtmemiz gerekiyor. Bu değerleri ayrı ayrı verebildiğimiz 
+				gibi column-rule özelliği ile tek seferde de verebiliriz.
+
+
+column-rule-color		Sütunlar arasındaki çizginin rengini belirtmek için kullanılır.
+
+
+column-rule-style		Sütunlar arasındaki çizginin stilini belirtmek için kullanılır.
+
+
+column-rule-width		Sütunlar arasındaki çizginin genişliğini belirtmek için kullanılır.
+
+
+column-span			Yazıya vermiş olduğumuz başlığın nerede konumlanacağını belirtmek için kullanılır.
+				Varsayılan olarak none değeri alır ve başlık ilk sütunda bulunur. column-span 
+				özelliğine all değeri vererek başlığın tüm sütunlara uygulanmasını sağlayabiliriz.
+
+
+column-width			Sütunlara genişlik değeri vermek için kullanılır.
+
+
+columns				Bu özellik ile sütun sayısı (column-count) ve genişlik değerini (column-width) birlikte vererek 
+				çoklu sütunları oluşturabiliriz. Kullanımı şu şekildedir:
+
+				columns: column–width column–count;
+
+
+
+
+
+
+--------------------RESPONSİVE (ESNEK) TASARIMLAR OLUŞTURMAK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+
+
+flex				Bu özellik flex-grow, flex-shrink ve flex-basis özelliklerini birlikte kullanmamızı sağlar.
+
+
+flex-basis			Kutulara max genişlik değerleri vermek için kullanılır. Varsayılan değeri auto’dur.
+
+
+flex-direction			Bu özellik ile kutuların hangi yönde (yatay veya dikeyde) sıralanacağını belirleriz. 4 farklı değer 
+				verebiliriz. Bunlar:
+
+				column : Kutular, dikeyde yukardan aşağı doğru yerleştirilir.
+
+				column-reverse: Kutular, dikeyde aşağıdan yukarı doğru yerleştirilir.
+
+				row : Kutular, yatayda soldan sağa doğru yerleştirilir. ( Varsayılan değerdir. )
+
+				row-reverse : Kutular, yatayda sağdan sola doğru yerleştirilir.
+
+
+
+flex-flow			Bu özellik flex-direction ve flex-wrap özelliklerini birlikte kullanmamızı sağlar.
+
+
+flex-grow			Bu özelliği verdiğimiz kutu, diğer kutulara göre verilen oranda genişler.
+
+
+flex-shrink			Bu özelliği verdiğimiz kutu, diğer kutulara göre verilen oranda daralır.
+
+
+flex-wrap			Kapsayıcı etikete sığmayan kutuların alt veya üst satırdan devam edip etmeme durumunu belirleriz. 3 farklı değer
+				erebiliriz. Bunlar:
+
+				wrap : Satıra sığmayan kutuların bir alt satıra kaydırılmasını sağlar.
+				nowrap : Satıra sığmayan kutuların bir alt satıra kaydırılmasını engeller. Aynı satırdan devam eder.
+
+
+wrap-reverse 			Satıra sığmayan kutuların bir üst satıra kaydırılmasını sağlar. wrap değerinin tam tersi yönde uygulanır.
+
+
+order				Kapsayıcı etiket içerisinde kutular yazılma sırasına göre yerleştirilir. Bu sıralamayı order özelliği ile
+				değiştirebiliriz. Değer olarak rakam veriyoruz. Varsayılan değeri 0’dır.
+
+
+justify-content			Kapsayıcı içerisindeki kutuların yatayda nasıl hizalanacağını belirleriz. 5 farklı değer verebiliriz. Bunlar:
+
+				⦁	center : Kutular, kapsayıcı içerisinde yatayda ortalanır. 
+
+				⦁	flex-end : Kutular, kapsayıcının sonundan (sol taraf) başlayarak yerleştirilir.
+
+				⦁	flex-start : Kutular, kapsayıcının başından (sağ taraf) başlayarak yerleştirilir. (Varsayılan değerdir.)
+
+				⦁	space-around : Kutular arası boşluk eşit olacak şekilde yerleştirilir.
+
+				⦁	space-between : Kutular bulundukları alana aralarında eşit mesafe olacak şekilde yerleştirilir.
+
+
+align-content			Kapsayıcı içerisinde iki veya daha fazla satırdan oluşan kutuların dikeyde nasıl hizalanacağını belirleriz. 6 farklı değer verebiliriz. Bunlar:
+
+				⦁	center : Satırlar, kapsayıcı içerisinde dikeyde ortalanır. 
+
+				⦁	flex-start : Satırlar, kapsayıcı içerisinde yukardan başlayarak yerleştirilir.
+ 
+				⦁	flex-end : Satırlar, kapsayıcı içerisinde aşağıdan başlayarak yerleştirilir. 
+
+				⦁	space-around : Satırlar arası boşluk eşit olacak şekilde yerleştirilir.
+
+				⦁	space-between : Satırlar arası boşluk eşit olacak şekilde yerleştirilir. 
+
+				⦁	stretch : Satırlar, kapsayıcı etiket içerisini tamamen doldurur. Yani her birinin yüksekliğinin 100% olmasını sağlar.
+
+
+align-items			Kapsayıcı içerisindeki kutuların dikeyde nasıl hizalanacağını belirleriz. justify-content özelliğinin tam tersi diyebiliriz.
+				5 farklı değer verebiliriz. Bunlar:
+
+				⦁	center : Kutular, kapsayıcı içerisinde dikeyde ortalanır. 
+
+				⦁	flex-start : Kutular, kapsayıcı içerisinde yukardan başlayarak yerleştirilir. 
+
+				⦁	flex-end : Kutular, kapsayıcı içerisinde aşağıdan başlayarak yerleştirilir. 
+
+				⦁	stretch : Kutuların yüksekliğinin, kapsayıcı etiket yüksekliğinde yani 100% olmasını sağlar. (Varsayılan değerdir.)
+
+				⦁	baseline : Kutular, yazı boyutlarına göre dikeyde yerleştirilir.
+align-self			Her bir kutuyu özel olarak hizalamak için kullanılır. Bu özellik ile kutulara verilen genel özelliklerinin dışına çıkılabilir.
+				6 farklı değer verebiliriz. Bunlar:
+
+				⦁	flex-start
+
+				⦁	flex-end
+
+				⦁	center
+
+				⦁	auto
+
+				⦁	stretch
+
+				⦁	baseline
+
+
+
+
+
+
+--------------------RESİMLİ KENARLIK VERMEK İÇİN KULLANDIĞIMIZ CSS KODLARI VE ANLAMLARI--------------------
+
+
+border-image			Border image özelliği, bir Html öğesinin kenarlıklarına resim yerleştirmek için kullanılır. Kullanımı şu şekildedir:
+
+				border–image
+
+				border–image–source
+
+				border–image–slice
+
+				border–image–repeat;
+
+
+border-image-repeat		Html öğesinin kenarlarına uygulanacak parçaların tekrarlanması veya uzatılması gibi durumları belirtmek için kullanılır.
+				border-image-repeat özelliğine 3 değer verebiliyoruz. Bunlar:
+
+				⦁	round
+
+				⦁	repeat
+
+				⦁	stretch
+
+
+border-image-slice		Kullanmak istediğimiz resmin hangi boyutlarda parçalara ayrılacağını ve bu parçaların köşelere ve kenarlara nasıl
+				yerleştirileceğini belirtmek için kullanılır. 
+
+
+border-image-source		Kullanmak istediğimiz resmin url’ini vermek için kullanılır.
+
+
+
+
+
+
+
+--------------------DİĞER CSS KODLARI VE ANLAMLARI--------------------
+
+
+box-shadow			Html öğelerine gölge efekti vermek için kullanılır. Vereceğimiz değerler ile gölgenin x ve y eksenindeki konumunu,
+				bulanıklığını ve rengini belirleriz.
+				İlk verilen değer x ekseni, ikinci verilen değer y ekseni, üçüncü verilen değer bulanıklık, dördüncü verilen değer
+				de rengi için uygulanır.
+
+
+display				Display özelliği, Html etiketlerinin sayfa üzerinde yerleştirilmesini ve düzenlenmesini sağlar.
+				display özelliğine şu 4 değeri verebiliyoruz:
+
+				⦁	block
+
+				⦁	inline
+
+				⦁	inline-block
+
+				⦁	none
+
+
+position			Position özelliği ile Html sayfamızdaki nesnelerin konumları değiştirebilir ve dilediğimiz gibi yerleştirmeler yapabiliriz.
+				position özelliği 5 değer alır. Bunlar:
+
+				⦁	static : Html etiketleri varsayılan olarak static değer alır ve sayfanın normal akışına göre konumlandırılırlar.
+
+				⦁	relative : Bu durumda Html etiketleri yine sayfanın normal akışına göre konumlandırılırlar. Fakat top, right,
+				bottom ve left özelliklerinden etkilenirler.
+
+				⦁	fixed : Bir Html etiketine fixed değeri verdiğimiz zaman o etiketin sayfanın belli bir noktasında sabitlenmesini
+				sağlayabiliriz.
+
+				⦁	absolute : Bir Html etiketine absolute değeri verdiğimiz zaman, o etiket normal akış içerisinden çıkar.
+				Relative’den farkı normal akış içerisinden çıkmasıdır.
+
+				⦁	sticky : Bir Html etiketine sticky değeri verdiğimiz zaman, o etiketin istediğimiz değerlerde sabit kalmasını
+				sağlayabiliriz.
+
+
+
+bottom				Html öğesinin, altındaki öğeyle arasındaki mesafeyi belirtmek için kullanılır.
+
+
+top				Html öğesinin, üstündeki öğeyle arasındaki mesafeyi belirtmek için kullanılır.
+
+
+right				Html öğesinin, sağındaki öğeyle arasındaki mesafeyi belirtmek için kullanılır.
+
+
+left				Html öğesinin, solundaki öğeyle arasındaki mesafeyi belirtmek için kullanılır.
+
+
+list-style			Diğer liste özelliklerini ayrı ayrı tanımlamak yerine tek seferde list-style özelliği ile tanımlayabiliriz.
+
+
+list-style-image		Bu özellik ile listelerin başlarındaki işaretler yerine resimler kullanabiliriz.
+
+
+list-style-position		Bu özellik ile listelerin başlarındaki işaretlerin pozisyonlarını belirleyebiliriz.
+				list-style-position özelliğine 2 değer verebiliyoruz. Bunlar:
+
+				⦁	inside
+
+				⦁	outside
+
+
+list-style-type			Bu özellik ile listelerin başındaki işaretler değiştirilebilir veya tamamen kaldırılabilir.
+				list-style-type özelliği şu değerleri alabilir:
+
+				⦁	circle
+
+				⦁	decimal
+
+				⦁	disc
+
+				⦁	lower-alpha
+
+				⦁	lower-greek
+
+				⦁	lower-latin
+
+				⦁	lower-roman
+
+				⦁	none
+
+				⦁	square
+
+				⦁	upper-alpha
+
+				⦁	upper-latin
+
+				⦁	upper-roman
+
+				⦁	initial
+
+				⦁	inherit
+
+				⦁	unset
+
+
+
+border-collapse			Html tablolarına kenarlık değeri verdikten sonra tablo kenarlığı ile hücreler arasındaki boşluğu 
+				kapatmak için kullanılır.
+
+
+border-spacing			Html tablolarında hücreler arası boşlukları ayarlamak için kullanılır.
+
+
+caption-side			Html tablolarında tablonun başlığının konumunu ayarlamak için kullanılır. 2 değer alır. Bunlar:
+
+				⦁	top : Tablo başlığı tablonun üstünde yer alır. 
+
+				⦁	bottom : Tablo başlığı tablonun altında yer alır.
+
+
+empty-cells			Html tablolarında tablonun boş hücrelerinin görünüp görünmemesini ayarlamak için kullanılır.
+				2 değer alır. Bunlar:
+
+				⦁	hide 
+
+				⦁	show
+
+
+width				Bir Html öğesine genişlik değeri vermek için kullanılır.
+
+
+height				Bir Html öğesine yükseklik değeri vermek için kullanılır.
+
+
+max-height			Bir Html öğesine max yükseklik değeri vermek için kullanılır.
+
+
+max-width			Bir Html öğesine max genişlik değeri vermek için kullanılır.
+
+
+min-height			Bir Html öğesine min yükseklik değeri vermek için kullanılır.
+
+
+min-width			Bir Html öğesine min genişlik değeri vermek için kullanılır.
+
+
+float				Html öğelerini birbiri ardına hizalamak için kullanılır.
+
+
+clear				Float özelliği uygulanan Html öğelerinden, float özelliğinin etkisini kaldırmak için kullanılır.
+
+
+overflow			X ve Y eksenindeki taşma durumları için kullanılır. 4 değer alır. Bunlar:
+
+				⦁	visible
+
+				⦁	hidden
+
+				⦁	scroll
+
+				⦁	auto
+
+
+overflow-x			X eksenindeki taşma durumları için kullanılır.
+
+
+overflow-y			Y eksenindeki taşma durumları için kullanılır.
+
+
+transition			Diğer transition özelliklerini toplu şekilde yazmak için kullanılır.
+
+
+transition-delay		Transition’ın gerçekleşmesini belirtilen süre kadar geciktirmek için kullanılır.
+
+
+transition-duration		Transition’ın kaç saniyede gerçekleşmesini istiyorsak onu belirtmek için kullanılır. Süre 
+				belirtilmezse, varsayılan değer 0 olduğundan transition özelliği uygulanmaz.
+
+
+transition-property		Html öğesinin hangi Css özelliğine uygulamak istiyorsak onu belirtmek için kullanılır. Örneğin 
+				width, color vb. bir özelliğine uygulayabiliriz.
+
+
+transition-timing-function	Transition’ın gerçekleşme biçimini belirtmek için kullanılır. Gerçekleşecek değişim, hızlı bir
+				şekilde başlayıp sonlara doğru yavaşlayabilir. Yavaş bir şekilde başlayıp sonlara doğru hızlanabilir veya sabit bir hızda
+				gerçekleşebilir. 
+				transition-timing-function özelliği şu değerleri alabilir:
+
+				⦁	ease : Geçiş, yavaş başlar sonra hızlanır en son tekrar yavaşlar. (Varsayılan değerdir.)
+
+				⦁	linear : Geçiş, baştan sona aynı hızda devam eder.
+
+				⦁	ease-in : Geçişin yavaş başlamasını sağlar.
+
+				⦁	ease-out : Geçişin yavaş bitmesini sağlar.
+
+				⦁	ease-in-out : Geçiş, yavaş başlar ve yavaş biter.
+
+				⦁	cublic-bezier : Manuel olarak ayarladığımız geçiş tipidir. 0 ile 1 arasında değerler alabilir.
+
+
+
+cursor				Fare imlecinin görünümünü değiştirmek için kullanılır. Yaklaşık 35 farklı değer vererek farklı görünümler
+				elde edebiliyoruz.
+
+
+filter				Filter özelliği ile bir Html etiketi üzerinde photoshop benzeri efektleri (bulanıklaştırma, parlaklık, şeffaflık vb..)
+				uygulayabiliriz. 
+				filter özelliğine şu değerleri verebiliyoruz:
+				⦁	none : Varsayılan değerdir. Herhangi bir efekt uygulanmaz.
+
+				⦁	blur : Resmin bulanıklığını ayarlar.
+
+				⦁	brightness : Resmin parlaklığını ayarlar.
+
+				⦁	contrast : Resmin kontrastını ayarlar.
+
+				⦁	drop-shadow : Resme gölge efekti verir.
+
+				⦁	grayscale : Resmi siyah beyaz yapar.
+
+				⦁	hue-rotate : Resme bir ton döndürme efekti verir.
+
+				⦁	invert : Resmin terse çevrilmesini sağlar.
+
+				⦁	opacity : Resme şeffaflık verir.
+
+				⦁	sepia : Resme kahverengi tonlarında bir efekt uygular.
+
+
+
+z-index				Hangi Html öğesinin daha üstte olacağını belirtmek için kullanılır.
+
+
+
+@media				Web tasarımlarımızın responsive özellikte olması için gerekli kodların içerisine yazılacağı özelliktir.
+
+
+object-fit			Object-fit özelliği, resim veya videolarımızı ebeveyn etiketleri içerisinde uygun bir şekilde 
+				boyutlandırmamızı sağlar.
+
+
+opacity				Opacity özelliği ile Html öğelerine şeffaflık verebiliriz. Bu özellik 0 ile 1 arasında bir değer alır.
+
+
+resize				Resize özelliği ile bir Html etiketinin yeniden boyutlandırılabilmesini sağlayabiliriz. Yada boyutlandırılabilmesini
+				engelleyebiliriz.
+				resize özelliği 4 değer alır. Bunlar:
+
+				⦁	none : Yeniden boyutlandırılabilir özelliğini devre dışı bırakmak için kullanılır.
+
+				⦁	both : Yatayda ve dikeyde yeniden boyutlandırılabilir yapmak için kullanılır.
+
+				⦁	horizontal : Yatayda yeniden boyutlandırılabilir yapmak için kullanılır.
+
+				⦁	vertical : Dikeyde yeniden boyutlandırılabilir yapmak için kullanılır.
+
+
+scroll-behavior			Html sayfalarımızda hedef olarak vermiş olduğumuz linklere giderken, aniden değil de animasyonlu bir şekilde gitmesini
+				sağlamak için kullanılır.
+				scroll-behavior özelliği 2 değer alır. Bunlar: 
+
+				⦁	auto : Varsayılan değerdir. Kaydırma efekti olmadan hedefe gider.
+
+				⦁	smooth : Link ile hedefe giderken kaydırma efekti sağlar.
+
+
+user-select			Bu özellik sayesinde yazıların fare ile seçimini engelleyebiliyoruz.
+				user-select özelliği 4 değer alır. Bunlar:
+
+				⦁	auto : Varsayılan değerdir. Tarayıcı izin verirse metinler seçilebilir.
+
+				⦁	none : Metin seçimini engeller.
+
+				⦁	text : Metinler kullanıcılar tarafından seçilebilir.
+
+				⦁	all : Çift tıklama yerine tek tıklama ile metin seçimi yapılabilir.
+
+
+
+visibility			Bir Html öğesinin görünürlüğünü ayarlamak için kullanılır.
+
+
+transform			Transform özelliği ile bir Html öğesi üzerinde döndürme, boyutlandırma, eğme gibi işlemlerimizi gerçekleştirebiliriz.
+				Bu işlemleri 2D (2 boyutlu) ve 3D (3 boyutlu) olmak üzere 2 farklı şekilde yapabiliyoruz.
+				transform özelliği şu değerleri alabilir:
+				⦁	translate : Bir Html öğesinin X ve Y eksenlerindeki konumunu değiştirmek için kullanılır. Birinci parametre 
+				X ekseni için, ikinci parametre Y ekseni için uygulanır.
+
+				⦁	rotate : Pozitif değer verildiğinde, Html öğesini 2 boyutlu olarak saat yönünde döndürür. Negatif değer 
+				verildiğinde, Html öğesini 2 boyutlu olarak saat yönünün tersine döndürür.
+
+				⦁	scale : Genişliği ve yüksekliği belirtilen oranda büyütmek veya küçültmek için kullanılır. Birinci parametre
+				genişlik için, ikinci parametre yükseklik için uygulanır.
+
+				⦁	skew : X ve Y eksenlerindeki eğilmeyi sağlar. Birinci parametre X ekseni için, ikinci parametre Y ekseni için
+				uygulanır.
+
+
+@import				Dışarıdan Css dosyalarını sayfalarımıza eklemek için kullanılır.
+
+
+
+
+
+
+
+
